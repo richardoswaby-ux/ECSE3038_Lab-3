@@ -16,7 +16,7 @@ app = FastAPI()
 # Initialize the Motor client using MONGO_URI
 client = AsyncIOMotorClient(MONGO_URI)
 
-db = client["engineering_db"]  # You can name your database whatever you like!
+db = client["engineering_db"]  
 
 # Pydantic Models
 
